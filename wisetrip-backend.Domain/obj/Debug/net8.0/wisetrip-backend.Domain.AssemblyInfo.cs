@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("wisetrip-backend.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+83f8bda6583c1fd2883a0bf8f6f5419d4527050e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+56c0618dd6c719d64654e9cdf1a6f571bff0a0de")]
 [assembly: System.Reflection.AssemblyProductAttribute("wisetrip-backend.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("wisetrip-backend.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

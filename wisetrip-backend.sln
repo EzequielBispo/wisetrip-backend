@@ -5,6 +5,10 @@ VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "wisetrip-backend.Domain", "wisetrip-backend.Domain\wisetrip-backend.Domain.csproj", "{22F476D0-7826-49B2-A9AF-1C4C6E30DF68}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "wisetrip-backend.Application", "wisetrip-backend.Application", "{8EB932C1-E654-4D3F-BFB1-75A4DB38C057}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "wisetrip-backend.Application", "wisetrip-backend.Application\wisetrip-backend.Application.csproj", "{EF0EFD9F-E7B3-4ED1-A5CA-072BC0202723}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,9 +19,16 @@ Global
 		{22F476D0-7826-49B2-A9AF-1C4C6E30DF68}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{22F476D0-7826-49B2-A9AF-1C4C6E30DF68}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{22F476D0-7826-49B2-A9AF-1C4C6E30DF68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF0EFD9F-E7B3-4ED1-A5CA-072BC0202723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF0EFD9F-E7B3-4ED1-A5CA-072BC0202723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF0EFD9F-E7B3-4ED1-A5CA-072BC0202723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF0EFD9F-E7B3-4ED1-A5CA-072BC0202723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{EF0EFD9F-E7B3-4ED1-A5CA-072BC0202723} = {8EB932C1-E654-4D3F-BFB1-75A4DB38C057}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {735C615A-FA4F-4143-8522-51DBC7AC326D}
