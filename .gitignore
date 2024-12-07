@@ -5,7 +5,13 @@
 *bin
 *obj
 obj
+/obj
+/bin
 bin
 /bin
 /obj
 /.vs
+.vs
+/.vs
+*.vs
+*/.vs
